@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 function Intro(){
     return (
         <div>
@@ -24,6 +25,7 @@ function Intro(){
             <br/>
             <br/>
             <br/>
+            <Footer/>
         </div>
     );
 }

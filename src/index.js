@@ -1,18 +1,30 @@
 import React from 'react';
-import {BrowserRouter as Router} from "react-router-dom";
-import ReactDOM from 'react-dom/client';
 import './styles/index.css';
-import App from './components/App';
+import Navbar from './components/Navbar.js'
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import ReactDOM from 'react-dom/client';
+import Intro from './components/Intro.js'
+import Timeline from './components/Timeline';
+import Footer from './components/Footer.js'
 import reportWebVitals from './reportWebVitals';
+function App() {
+  return (
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Routes>
+        <Route path='/' element={<Navbar/>}>
+        <Route index element={<Intro />} />
+          <Route path="experience" element={<Timeline />} />
+          <Route path="skills" element={<Timeline />} />
+          <Route path="academics" element={<Timeline />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <Router basename={process.env.PUBLIC_URL}>
-     <App />
-   </Router>
-);
+root.render(<App />);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+{/* <Navbar/>
+      <Intro/>
+      <Footer/> */}
