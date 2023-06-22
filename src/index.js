@@ -15,8 +15,6 @@ function App() {
           <Route path="experience" element={<Timeline />} />
           <Route path="skills" element={<Timeline />} />
           <Route path="academics" element={<Timeline />} />
-          <Route path="resume" element={<Resume />} />
-          
         </Route>
       </Routes>
     </BrowserRouter>
