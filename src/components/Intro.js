@@ -22,9 +22,6 @@ function Intro(){
                 </p>
                 </section>
             </div>
-            <br/>
-            <br/>
-            <br/>
             <Footer/>
         </div>
     );

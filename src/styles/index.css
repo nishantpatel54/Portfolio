@@ -62,11 +62,10 @@ nav{
 }
 
 .footer-page{
-  margin-top: -50%;
   display: inline-flex;
   justify-content: center;
   text-align: center;
-  position:relative;
+  position:fixed;
   bottom: 0;
   width: 100%;
 }
