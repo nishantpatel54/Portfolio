@@ -11,7 +11,7 @@ function Timeline(){
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg"
+          url: "https://picsum.photos/200"
         }
       }
     },
@@ -24,7 +24,7 @@ function Timeline(){
         media: {
           type: "IMAGE",
           source: {
-            url: "http://someurl/image.jpg"
+            url: "https://picsum.photos/200"
           }
         }
       },
@@ -37,14 +37,14 @@ function Timeline(){
         media: {
           type: "IMAGE",
           source: {
-            url: "http://someurl/image.jpg"
+            url: "https://picsum.photos/200"
           }
         }
       }];
 
     return (
-      <div style={{ width: "100%", height: "100%" }}>
-        <Chrono items={items} mode='VERTICAL_ALTERNATING'/>
+      <div style={{ width: "100%", height: "100%", 'margin-top':'10px'}}>
+        <Chrono items={items} mode='VERTICAL_ALTERNATING' hideControls={true}/>
       </div>
     )
   }

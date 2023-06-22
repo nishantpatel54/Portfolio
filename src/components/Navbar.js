@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import pdf from "./Resume.pdf";
 function Navbar(){
     return (
-        <>
+        <div>
         <nav>
             <h3 className="nav--logo_text">Nishant Patel</h3>
             <div className='nav-items'>
@@ -15,7 +15,7 @@ function Navbar(){
             </div>
         </nav>
         <Outlet/>
-        </>
+        </div>
     );
 }
 
