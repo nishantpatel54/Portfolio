@@ -5,7 +5,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import Intro from './components/Intro.js'
 import Timeline from './components/Timeline';
-import Footer from './components/Footer.js'
+import Resume from './components/Resume';
 import reportWebVitals from './reportWebVitals';
 function App() {
   return (
@@ -16,6 +16,8 @@ function App() {
           <Route path="experience" element={<Timeline />} />
           <Route path="skills" element={<Timeline />} />
           <Route path="academics" element={<Timeline />} />
+          <Route path="resume" element={<Resume />} />
+          
         </Route>
       </Routes>
     </BrowserRouter>
