@@ -1,8 +1,15 @@
 import React from 'react';
 import Footer from './Footer';
+import Cubes from './Cube';
 function Intro(){
     return (
         <div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
+            <div className="cube"></div>
             <div className='about'>
                 <h3>Hi there, I'm Nishant 👋</h3>
                 <br/>
@@ -18,7 +25,7 @@ function Intro(){
                 <section>
                 <p>
                     Thank you for visiting my site! I hope you get to know a bit more about me. Feel free to check 
-                    me out of my github and connect through my LinkedIn or the contact form.
+                    me out of my github and connect through my LinkedIn
                 </p>
                 </section>
             </div>
