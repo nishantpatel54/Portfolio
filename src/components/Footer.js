@@ -1,4 +1,4 @@
-import GitHubLogo from '../images/github-mark.png'
+import GitHubLogo from '../images/github-mark-white.png'
 import LinkedIn from '../images/linkedin.png'
 function Footer(){
     return(

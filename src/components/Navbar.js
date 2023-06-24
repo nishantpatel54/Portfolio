@@ -1,12 +1,7 @@
 import React from 'react';
 import { Outlet, Link } from "react-router-dom";
 import pdf from "./Resume.pdf";
-import Cubes from './Cubes';
-function Navbar(props){
-    let cubes = []
-    for (let i=0;i<props.numCubes;i++){
-        cubes.push(<Cubes/>)
-    }
+function Navbar(){
     return (
         <div>
         <nav>
@@ -18,7 +13,6 @@ function Navbar(props){
                 <span id='music'><Link to="/academics" style={{ textDecoration: 'none' }}><h4 className="nav--title">Academics</h4></Link></span>
                 <span id='music'><a href={pdf} target="_blank" style={{ textDecoration: 'none' }}><h4 className="nav--title">Resume</h4></a></span>
             </div>
-            {cubes}
         </nav>
 
         <Outlet/>

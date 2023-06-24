@@ -9,7 +9,7 @@ function Timeline(){
   ];
 
     return (
-      <div className='s'>
+      <div>
         <div style={{ width: "100%", height: "calc(100%-1em)", 'margin-top':'10px', 'margin-bottom':'100px'}}>
           <Chrono items={items} mode="VERTICAL_ALTERNATING" hideControls={true}>
             <div>

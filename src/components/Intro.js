@@ -28,7 +28,6 @@ function Intro(){
                     <img className='about-image' src={panel}/>
                 </div>
             </div>
-            <div className="cube"></div>
             <Footer/>
         </div>
     );
