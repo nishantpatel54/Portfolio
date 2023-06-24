@@ -16,18 +16,17 @@ body {
   display: grid;
   grid-template-rows: 1fr auto;
   min-height: 100vh;
-  overflow: hidden;
   font-family: "Jura", sans-serif;
 }
 
-.s{
+/* .s{
   overflow-y:scroll;
   height:100%;
   width:100%;
   position:absolute;
   right:-30px;
   margin-bottom: 100px;
-}
+} */
 
 nav{
   display: flex;
@@ -81,21 +80,40 @@ a:visited {
   padding: 1em;
 }
 
+.container{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center
+}
+
 .about{
+  order: 1;
   margin-top: calc(1em);
-  border-radius: 25px;
-  padding: 20px;
-  width: 50%;
-  min-width: 600px;
-  height: calc(50% - 20px);
+  width: 100%;
   padding: 30px 27px;
+}
+
+.about-image{
+  order: 2;
+  width: 75%;
+  height: auto;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+  .about-image{
+    width: 100%;
+  }
 }
 
 .footer-page{
   display: inline-flex;
   justify-content: center;
   text-align: center;
-  position:fixed;
+  position:relative;
   bottom: 0;
   width: 100%;
 }
@@ -115,16 +133,16 @@ a:visited {
 }
 
 .cube {
-  position: absolute;
+  position:fixed;
   top: 80vh;
   left: 45vw;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border: solid 1px #003298;
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  -webkit-animation: cube 8s ease-in forwards infinite;
-          animation: cube 8s ease-in forwards infinite;
+  -webkit-animation: cube 10s ease-in backwards infinite;
+          animation: cube 10s ease-in backwards infinite;
 }
 .cube:nth-child(2n) {
   border-color: #0051f4;
@@ -138,26 +156,26 @@ a:visited {
 .cube:nth-child(3) {
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
-  left: 75vw;
+  left: 65vw;
   top: 50vh;
 }
 .cube:nth-child(4) {
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
-  left: 90vw;
-  top: 10vh;
+  left: 80vw;
+  top: 30vh;
 }
 .cube:nth-child(5) {
   -webkit-animation-delay: 8s;
           animation-delay: 8s;
   left: 10vw;
-  top: 85vh;
+  top: 75vh;
 }
 .cube:nth-child(6) {
   -webkit-animation-delay: 10s;
           animation-delay: 10s;
   left: 50vw;
-  top: 10vh;
+  top: 35vh;
 }
 
 @-webkit-keyframes cube {
