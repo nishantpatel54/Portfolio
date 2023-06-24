@@ -32,8 +32,8 @@ nav{
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  padding: 30px 25px;
-  height: 90px;
+  padding: 0px 25px 25px 30px;
+  height: 10%px;
   min-width: 600px;
 }
 
@@ -62,6 +62,19 @@ a:visited {
 .nav--title{
   color: #FFFFFF;
   font-weight: 500;
+}
+
+#music {
+  display: block;
+  line-height: 60px;
+  text-decoration: none;
+  min-width: 150px;
+  width: auto;
+  text-align: center;
+}
+
+.nav--title:hover{
+  background-color: #003298;
 }
 
 .navbar{
@@ -106,6 +119,10 @@ a:visited {
   }
   .about-image{
     width: 100%;
+  }
+
+  .nav--title{
+    font-size: 2em;
   }
 }
 
