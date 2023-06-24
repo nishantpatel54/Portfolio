@@ -16,7 +16,7 @@ function Navbar(props){
                 <span id='music'><Link to="/experience" style={{ textDecoration: 'none' }}><h4 className="nav--title">Experience</h4></Link></span>
                 <span id='music'><Link to="/skills" style={{ textDecoration: 'none' }}><h4 className="nav--title">Skills</h4></Link></span>
                 <span id='music'><Link to="/academics" style={{ textDecoration: 'none' }}><h4 className="nav--title">Academics</h4></Link></span>
-                <span id='music'><h4 className="nav--title"><a href={pdf} target="_blank" style={{ textDecoration: 'none' }}>Resume</a></h4></span>
+                <span id='music'><a href={pdf} target="_blank" style={{ textDecoration: 'none' }}><h4 className="nav--title">Resume</h4></a></span>
             </div>
             {cubes}
         </nav>
