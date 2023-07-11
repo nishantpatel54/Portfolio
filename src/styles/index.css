@@ -166,6 +166,15 @@ h1 {
   text-align: center;
 }
 
+
+.experience-content{
+  color: #DEEBF8;
+}
+
+/*
+
+********************* change the name to either a class name or id name ********************
+
 ul {
   --col-gap: 2rem;
   --barH: 1rem;
@@ -212,7 +221,10 @@ ul li {
   );
 }
 
-/* bar */
+/* bar 
+
+********************* change the name to either a class name or id name ********************
+
 ul li::before {
   content: "";
   grid-area: role;
@@ -232,7 +244,12 @@ ul li::before {
   );
 }
 
-/* role */
+*/
+
+/* role 
+
+********************* change the name to either a class name or id name ********************
+
 ul li::after {
   content: "";
   grid-area: role;
@@ -276,4 +293,6 @@ ul li .descr {
 }
 .credits a {
   color: var(--color);
-}
+} 
+
+*/
