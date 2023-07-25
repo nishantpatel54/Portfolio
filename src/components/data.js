@@ -36,6 +36,19 @@ const data= {
             <li>CSCB36H3 Introduction to the Theory of Computation</li>
             <li>MATB24H3 Linear Algebra II</li>
           </ul>
+        </div>},
+        { title: 'Sept 2019 - July 2019 ', 
+        cardTitle: 'Fall 2019 Ryerson University',
+        cardDetailedText: "          ",
+        timelineContent : 
+        <div className='experience-content'>
+          <ul>
+            <li>CPS109 Computer Science I</li>
+            <li>MTH110 Discrete Mathematics I</li>
+            <li>CPS213 Computer Organization I</li>
+            <li>CMN300 Comm in the Computer Industry</li>
+            <li>PHL214 Critical Thinking I</li>
+          </ul>
         </div>}
       ],
     experiences : [
