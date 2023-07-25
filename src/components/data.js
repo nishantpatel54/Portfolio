@@ -1,3 +1,4 @@
+import React from 'react'
 const data= {
     courses : [
         { title: 'Sept 2018 - Dec 2018', 

@@ -1,4 +1,5 @@
 import GitHubLogo from '../images/github-mark-white.png'
+import React from 'react'
 import LinkedIn from '../images/linkedin.png'
 function Footer(){
     return(
