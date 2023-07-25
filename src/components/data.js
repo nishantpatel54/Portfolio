@@ -44,10 +44,20 @@ const data= {
         <div className='experience-content'>
           <ul>
             <li>CPS109 Computer Science I</li>
-            <li>MTH110 Discrete Mathematics I</li>
             <li>CPS213 Computer Organization I</li>
             <li>CMN300 Comm in the Computer Industry</li>
             <li>PHL214 Critical Thinking I</li>
+          </ul>
+        </div>},
+        { title: 'Jan 2020 - Apr 2020 ', 
+        cardTitle: 'Winter 2020 Ryerson University',
+        cardDetailedText: "          ",
+        timelineContent : 
+        <div className='experience-content'>
+          <ul>
+            <li>CCPS 310 Computer Organization II</li>
+            <li>MTH110 Discrete Mathematics I</li>
+            <li>CRM101 Understanding Crime In Canada</li>
           </ul>
         </div>}
       ],
