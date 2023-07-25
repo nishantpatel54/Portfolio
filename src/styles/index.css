@@ -16,6 +16,7 @@ body {
   grid-template-rows: 1fr auto;
   min-height: 100vh;
   font-family: "Jura", sans-serif;
+  color: #DEEBF8;
 }
 
 nav{
@@ -96,7 +97,7 @@ a:visited {
   color: #61DAFB;
   order: 1;
   margin-top: calc(1em);
-  width: 100%;
+  width: 70%;
   padding: 30px 27px;
 }
 
@@ -133,6 +134,12 @@ a:visited {
   width: 50px;
 }
 
+.experience-content{
+  color: #DEEBF8;
+}
+
+
+/*
 .hero__title {
   color: #fff;
   position: absolute;
@@ -167,11 +174,7 @@ h1 {
 }
 
 
-.experience-content{
-  color: #DEEBF8;
-}
 
-/*
 
 ********************* change the name to either a class name or id name ********************
 

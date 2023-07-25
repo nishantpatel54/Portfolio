@@ -24,9 +24,9 @@ function Intro(){
                     </p>
                     </section>
                 </div>
-                <div className='about-image'>
+                {/* <div className='about-image'>
                     <img className='about-image' src={panel}/>
-                </div>
+                </div> */}
             </div>
             <Footer/>
         </div>
