@@ -59,6 +59,18 @@ const data= {
             <li>MTH110 Discrete Mathematics I</li>
             <li>CRM101 Understanding Crime In Canada</li>
           </ul>
+        </div>},
+        { title: 'Sept 2020 - July 2020 ', 
+        cardTitle: 'Fall 2020 Ryerson University',
+        cardDetailedText: "          ",
+        timelineContent : 
+        <div className='experience-content'>
+          <ul>
+            <li>CPS305 Data Structures</li>
+            <li>CPS393 Introduction to C and UNIX</li>
+            <li>CPS406 Intro to Software Engineering</li>
+            <li>CPS530 Web Systems Development</li>
+          </ul>
         </div>}
       ],
     experiences : [
