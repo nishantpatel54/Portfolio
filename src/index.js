@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/index.css';
 import Navbar from './components/Navbar.js'
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {HashRouter, Routes, Route, Navigate} from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import Intro from './components/Intro.js'
 import Timeline from './components/Timeline';
@@ -11,7 +11,7 @@ import reportWebVitals from './reportWebVitals';
 import data from './components/data.js';
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Navbar/>}>
         <Route index element={<Intro />} />
@@ -19,8 +19,9 @@ function App() {
           <Route path="skills" element={<Skills />} />
           <Route path="academics" element={<Timeline items={data.courses}/>} />
         </Route>
+        <Route path="/*" element={<Navigate to="/" />}  />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
