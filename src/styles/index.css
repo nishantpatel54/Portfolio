@@ -57,6 +57,32 @@ a:visited {
   font-weight: 500;
 }
 
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;         /* ADD */
+  display: flex;          /* ADD */
+  flex-direction: column; /* ADD */
+}
+
+.card-image {
+  width: 100%;
+  max-height: 230px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card-title {
+  font-size: 2em;
+}
+
 #music {
   display: block;
   line-height: 60px;

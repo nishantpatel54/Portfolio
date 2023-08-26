@@ -61,7 +61,7 @@ const data= {
             <li>CRM101 Understanding Crime In Canada</li>
           </ul>
         </div>},
-        { title: 'Sept 2020 - July 2020 ', 
+        { title: 'Sept 2020 - Dec 2020 ', 
         cardTitle: 'Fall 2020 Ryerson University',
         cardDetailedText: "          ",
         timelineContent : 
@@ -72,7 +72,63 @@ const data= {
             <li>CPS406 Intro to Software Engineering</li>
             <li>CPS530 Web Systems Development</li>
           </ul>
-        </div>}
+        </div>},
+        {
+          title:'Jan 2021 - Apr 2021',
+          cardTitle:'Winter 2021 Ryerson University',
+          cardDetailedText: "          ",
+          timelineContent:
+          <div className='experience-content'>
+            <ul>
+              <li>CPS 590 Operating Systems I</li>
+              <li>MTH 108 Linear Algebra </li>
+              <li>CPS 412 Soc Issues, Ethics and Profess</li>
+              <li>CPS 506 Comparative Prog Languages</li>
+            </ul>
+          </div>
+        },
+        {
+          title:'Set 2021 - Dec 2021',
+          cardTitle:'Fall 2021 Ryerson University',
+          cardDetailedText: "          ",
+          timelineContent:
+          <div className='experience-content'>
+            <ul>
+              <li>CPS 510 Database Systems 1</li>
+              <li>CPS 633 Computer Security</li>
+              <li>CPS 721 Artificial Intelligence 1</li>
+              <li>CPS 731 Software Engineer 1</li>
+            </ul>
+          </div>
+        },
+        {
+          title:'Jan 2022 - Apr 2022',
+          cardTitle:'Winter 2022 Ryerson University',
+          cardDetailedText: "          ",
+          timelineContent:
+          <div className='experience-content'>
+            <ul>
+              <li>CPS 616 Algorithms</li>
+              <li>CPS 706 Computer Networks I</li>
+              <li>ENT 526 Entreprnl Behav and Strategy</li>
+              <li>MTH 380 Probability and Statistics I</li>
+            </ul>
+          </div>
+        },
+        {
+          title:'Jan 2023 - Apr 2023',
+          cardTitle:'Winter 2023 Ryerson University',
+          cardDetailedText: "          ",
+          timelineContent:
+          <div className='experience-content'>
+            <ul>
+              <li>CPS 610 Database Systems II</li>
+              <li>CPS 630 Web Applications</li>
+              <li>CPS 847 Software Tools for Startups</li>
+              <li>MUS 505 The History of Pop Music</li>
+            </ul>
+          </div>
+        },
       ],
     experiences : [
       { title: 'May 2022 - Dec 2022 ', 
@@ -106,9 +162,31 @@ caused by dynamic C# types.
           <h4>Developer Experience team</h4>
           <ul>
             <li>Working on Migrating Azure Cloud to Github and improving developer experience through infrastructure</li>
-            
           </ul>
         </div>}
+    ],
+
+    skills:[
+      {source:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',title:'Python'},
+      {source:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',title:'C#'},
+      {source:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',title:'JavaScript'},
+      {source:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',title:'React.js'},
+      {source:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg',title:'Flask'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",title:'.NET'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",title:'PyTorch'},
+      {source:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Gnu-octave-logo.svg/240px-Gnu-octave-logo.svg.png",title:'Octave'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg",title:'Microsoft SQL Server'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",title:'MySQL'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",title:'MongoDB'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",title:'Node'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",title:'HTML'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" ,title:'CSS'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",title:'Git'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" ,title:'Docker'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",title:'Azure'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytest/pytest-original.svg",title:'PyTest'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",title:'NumPy'},
+      {source:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",title:'Linux'},
     ]
     
 }
