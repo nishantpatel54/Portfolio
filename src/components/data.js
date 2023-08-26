@@ -1,4 +1,5 @@
 import React from 'react'
+import useCheckMobileScreen from './devicewidth';
 const data= {
     courses : [
         { title: 'Sept 2018 - Dec 2018', 

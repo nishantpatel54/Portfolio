@@ -7,7 +7,7 @@ function Intro(){
             <div className='container'>
                 <div className='about'>
                     <h3 style={{'font-size':'3em'}}>Hi there! I'm Nishant</h3>
-                    <section className='about-content'>
+                    <section className='about-content'> 
                     <p>I'm a computer science student at Ryerson University and an aspiring Software Engineer.
                         I previously interned at Ceridian as a Software Developer. I'm looking for my next internship
                         opportunity and always looking forward to connect with new people and acquire new experiences
@@ -16,7 +16,7 @@ function Intro(){
                     </p>
                     </section>
                     <br/>
-                    <section>
+                    <section className='about-content'>
                     <p>
                         Thank you for visiting my site! I hope you get to know a bit more about me. Feel free to check 
                         me out of my github and connect through my LinkedIn
