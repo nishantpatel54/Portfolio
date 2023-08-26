@@ -122,13 +122,13 @@ a:visited {
   display: flex;
   flex-direction:row;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  height: calc(50vh + 5em);
 }
 
 .about{
   color: #61DAFB;
   order: 1;
-  margin-top: calc(1em);
   width: 70%;
   padding: 30px 27px;
 }
