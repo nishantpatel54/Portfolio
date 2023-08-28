@@ -63,6 +63,7 @@ a:visited {
   font-weight: 500;
 }
 
+
 .cards-list {
   display: flex;
   flex-wrap: wrap;
@@ -118,6 +119,19 @@ a:visited {
   padding: 1em;
 }
 
+@media only screen and (max-width: 1244px) {
+  nav{
+    height: 8vh;
+  }
+  .nav--title{
+    font-weight: 800;
+  }
+
+  #music{
+    height: fit-content;
+  }
+}
+
 .container{
   display: flex;
   flex-direction:row;
@@ -152,7 +166,7 @@ a:visited {
   }
 
   .nav--title{
-    font-size: 2em;
+    font-size: 3em;
   }
 }
 
@@ -170,9 +184,18 @@ a:visited {
   width: 50px;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 1244px) {
+  .footer-img{
+    width: 100px;
+  }
+}
+
 .experience-content{
   width: fit-content;
   color: #DEEBF8;
+}
+.maQHP{
+  background: #21222A !important;
 }
 
 @media only screen and (max-width: 1244px) {
@@ -180,5 +203,27 @@ a:visited {
     width: fit-content;
     color: #DEEBF8;
     font-size: 1.5em;
+  }
+  .jAtlXD{
+    font-size: 1.5em !important;
+  }
+
+  .jlsaXe {
+    height: 4em !important; 
+    width: 4em !important;
+  }
+  .cBMIre{
+    height: 4em !important; 
+    width: 4em !important;
+  }
+
+  .iEDRJb {
+    margin-top: 20px;
+    min-height: 5em !important;
+  }
+
+  .bbNLAs {
+    width: 50px !important;
+    height: 50px !important;
   }
 }

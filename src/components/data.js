@@ -39,7 +39,7 @@ const data= {
             <li>BIOA02H3 Life on Earth: Form, Function and Interactions</li>
           </ul>
         </div>},
-        { title: 'Sept 2019 - July 2019 ', 
+        { title: 'Sept 2019 - Dec 2019 ', 
         cardTitle: 'Fall 2019 Ryerson University',
         cardDetailedText: "          ",
         timelineContent : 
@@ -129,7 +129,7 @@ const data= {
               <li>MUS 505 The History of Pop Music</li>
             </ul>
           </div>
-        },
+        }
       ],
     experiences : [
       { title: 'May 2022 - Dec 2022 ', 
@@ -166,7 +166,101 @@ caused by dynamic C# types.
           </ul>
         </div>}
     ],
+    courses_mobile:[
+      { title: 'Sept 2017 - Apr 2018', 
+        cardTitle: '2017-2018 University of Toronto',
+        cardDetailedText: "          ",
+        timelineContent: 
+        <div className='experience-content'>
+          <ul>
+            <li>CSCA08H3 Introduction to Computer Science I</li>
+            <li>CSCA67H3 Discrete Mathematics</li>
+            <li>MATA31H3 Calculus I for Mathematical Sciences</li>
+            <li>BIOA01H3 Life on Earth: Unifying Principles</li>
+            <li>CHMA10H3 Introductory Chemistry I: Structure and Bonding</li>
+            <li>CSCA48H3 Introduction to Computer Science II</li>
+            <li>MATA22H3 Linear Algebra I for Mathematical Sciences</li>
+            <li>MATA37H3 Calculus II for Mathematical Sciences</li>
+            <li>CHMA11H3 Introductory Chemistry II</li>
+          </ul>
+      </div>},
+      { title: 'Sept 2018 - Dec 2018 ', 
+      cardTitle: '2018 - 2019 University of Toronto',
+      cardDetailedText: "          ",
+      timelineContent : 
+      <div className='experience-content'>
+        <ul>
+          <li>STAB57H3 Introduction to Statistics</li>
+          <li>CSCB36H3 Introduction to the Theory of Computation</li>
+          <li>MATB24H3 Linear Algebra II</li>
+          <li>BIOA02H3 Life on Earth: Form, Function and Interactions</li>
+        </ul>
+      </div>},
+      { title: 'Sept 2019 - Apr 2020', 
+      cardTitle: '2019 - 2020 Ryerson University',
+      cardDetailedText: "          ",
+      timelineContent : 
+      <div className='experience-content'>
+        <ul>
+          <li>CPS109 Computer Science I</li>
+          <li>CPS213 Computer Organization I</li>
+          <li>CMN300 Comm in the Computer Industry</li>
+          <li>PHL214 Critical Thinking I</li>
+          <li>CCPS 310 Computer Organization II</li>
+          <li>MTH110 Discrete Mathematics I</li>
+          <li>CRM101 Understanding Crime In Canada</li>
+        </ul>
+      </div>},
+      { title: 'Sept 2020 - Apr 2021 ', 
+      cardTitle: '2020 - 2021 Ryerson University',
+      cardDetailedText: "          ",
+      timelineContent : 
+      <div className='experience-content'>
+        <ul>
+          <li>CPS305 Data Structures</li>
+          <li>CPS393 Introduction to C and UNIX</li>
+          <li>CPS406 Intro to Software Engineering</li>
+          <li>CPS530 Web Systems Development</li>
+          <li>CPS 590 Operating Systems I</li>
+          <li>MTH 108 Linear Algebra </li>
+          <li>CPS 412 Soc Issues, Ethics and Profess</li>
+          <li>CPS 506 Comparative Prog Languages</li>
+        </ul>
+      </div>},
+      {
+        title:'Set 2021 - Apr 2022',
+        cardTitle:'2021-2022 Ryerson University',
+        cardDetailedText: "          ",
+        timelineContent:
+        <div className='experience-content'>
+          <ul>
+            <li>CPS 510 Database Systems 1</li>
+            <li>CPS 633 Computer Security</li>
+            <li>CPS 721 Artificial Intelligence 1</li>
+            <li>CPS 731 Software Engineer 1</li>
+            <li>CPS 616 Algorithms</li>
+            <li>CPS 706 Computer Networks I</li>
+            <li>ENT 526 Entreprnl Behav and Strategy</li>
+            <li>MTH 380 Probability and Statistics I</li>
+          </ul>
+        </div>
+      },
 
+      {
+        title:'Jan 2023 - Apr 2023',
+        cardTitle:'2022-2023 Ryerson University',
+        cardDetailedText: "          ",
+        timelineContent:
+        <div className='experience-content'>
+          <ul>
+            <li>CPS 610 Database Systems II</li>
+            <li>CPS 630 Web Applications</li>
+            <li>CPS 847 Software Tools for Startups</li>
+            <li>MUS 505 The History of Pop Music</li>
+          </ul>
+        </div>
+      }
+    ],
     skills:[
       {source:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',title:'Python'},
       {source:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',title:'C#'},

@@ -14,7 +14,7 @@ function Experiences(props){
           slideShowType="reveal" 
           scrollable={{ scrollbar: true }} 
           hideControls={false} 
-          theme={{cardBgColor:'#21222A', cardDetailsColor:'#DEEBF8'}}
+          theme={{cardBgColor:'#21222A', cardDetailsColor:'#DEEBF8',secondary:'white'}}
           fontSizes={{
             cardTitle: (window.screen.width >= 1244 ? '1em' : '2em'),
             timelineContent: (window.screen.width >= 1244 ? '1em' : '2em'),

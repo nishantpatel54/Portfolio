@@ -17,7 +17,7 @@ function App() {
         <Route index element={<Intro />} />
           <Route path="experience" element={<Experiences items={data.experiences}/>} />
           <Route path="skills" element={<Skills />} />
-          <Route path="academics" element={<Timeline items={data.courses}/>} />
+          <Route path="academics" element={<Timeline items={(window.screen.width >= 1244 ? data.courses : data.courses_mobile)}/>} />
         </Route>
         <Route path="/*" element={<Navigate to="/" />}  />
       </Routes>

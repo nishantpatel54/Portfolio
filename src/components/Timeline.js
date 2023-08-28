@@ -5,10 +5,11 @@ function Timeline(props){
       <div className='timelineWrapper'>
         <Chrono 
         items={props.items} 
-        mode={(window.screen.width >= 1244 ? 'VERTICAL_ALTERNATING' : 'HORIZONTAL')} 
+        mode='VERTICAL_ALTERNATING'
         cardHeight={(window.screen.width >= 1244 ? 200 : 500)} 
-        enableBreakPoint={false} slideShow={true} 
-        slideItemDuration={2000} slideShowType="reveal" 
+        slideShow={true} 
+        slideItemDuration={2000} 
+        slideShowType="reveal" 
         scrollable={{ scrollbar: true }} hideControls={false}
         fontSizes={{
           cardTitle: (window.screen.width >= 1244 ? '1em' : '2em'),
