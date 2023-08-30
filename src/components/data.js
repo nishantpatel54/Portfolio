@@ -89,7 +89,7 @@ const data= {
           </div>
         },
         {
-          title:'Set 2021 - Dec 2021',
+          title:'Sept 2021 - Dec 2021',
           cardTitle:'Fall 2021 Ryerson University',
           cardDetailedText: "          ",
           timelineContent:
@@ -228,7 +228,7 @@ caused by dynamic C# types.
         </ul>
       </div>},
       {
-        title:'Set 2021 - Apr 2022',
+        title:'Sept 2021 - Apr 2022',
         cardTitle:'2021-2022 Ryerson University',
         cardDetailedText: "          ",
         timelineContent:
