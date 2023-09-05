@@ -18,8 +18,8 @@ function Intro(){
                     <br/>
                     <section className='about-content'>
                     <p>
-                        Thank you for visiting my site! I hope you get to know a bit more about me. Feel free to check 
-                        me out of my github and connect through my LinkedIn
+                        Thank you for visiting my site! I hope you get to know a bit more about me. 
+                        Feel free to check out my projects on my GitHub and connect through my LinkedIn by clicking on the Icons below.
                     </p>
                     </section>
                 </div>
