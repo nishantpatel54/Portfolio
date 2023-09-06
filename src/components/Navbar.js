@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet, Link } from "react-router-dom";
-import pdf from "./Resume.pdf";
+import pdf from "./Resume_Nishant_Patel.pdf";
 function Navbar(){
     return (
         <div>
